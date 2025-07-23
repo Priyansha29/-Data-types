@@ -1,17 +1,47 @@
 # Data-types
 
-EXPERIMENT-2:- Aim: To study and implement C++ Program Structure (Data Types).
+Aim:
+To study and implement C++ program structure using different data types.
 
-Apparatus: VS Code or Programiz online compiler
+Apparatus:
+VS Code
+Programiz Online Compiler
 
-Theory: This program illustrates the use of different basic data types in C++: int, float, char, double, string, and bool. It accepts user inputs for each type, displays the entered values, and shows their memory sizes using the sizeof() operator.
+Theory:
+This program demonstrates the use of various fundamental data types in C++. It accepts input for each type from the user, displays the value, and shows the memory size using the sizeof() operator.
 
-int: Stores whole numbers without decimals. Usually takes 4 bytes.
-float: Stores decimal numbers with single precision. Takes about 4 bytes.
-double: Stores decimal numbers with higher precision than float. Uses 8 bytes.
-char: Stores a single character. Occupies 1 byte.
-string: Stores a sequence of characters (text). Size varies depending on length.
-bool: Stores true or false values. Uses 1 byte.
-->The program first takes an integer input and displays its value and size in bytes. ->Then it accepts a float value (decimal number) and prints its value and size. ->Next, it takes a character input and shows its value and size. ->It then accepts a double value, which has higher precision than float, and displays its details. ->A string input is then taken and displayed, along with its size (note: sizeof returns the object size, not string length). ->Finally, it takes a boolean value (0 or 1) and shows its value and memory size.
+Key Concepts Covered:
+1)int:
+Stores whole numbers without decimal points.
+Typically takes 4 bytes of memory.
 
-Conclusion: Hence, we were able to understand about various data types in C++ and the memory size they occupy.
+2)float:
+Stores decimal numbers with single precision.
+Occupies 4 bytes.
+
+3)double:
+Holds decimal numbers with higher precision than float.
+Uses 8 bytes.
+
+4)char:
+Stores a single character.
+Takes up 1 byte.
+
+5)string:
+Represents a sequence of characters (text).
+Size can vary depending on the content length (note: sizeof() gives object size, not length of the string).
+
+6)bool:
+Stores Boolean values: true or false (i.e., 1 or 0).
+Occupies 1 byte.
+
+Program Flow:
+User is prompted to input values for each data type (int, float, char, double, string, bool).
+
+Each input is:
+a)Stored in a corresponding variable.
+b)Displayed using the cout statement.
+c)Evaluated for its memory size using sizeof() and the result is printed.
+
+Conclusion:
+Through this program, we understood the use of basic C++ data types and learned how much memory each type typically consumes. This forms the foundation for efficient data handling in any C++ application.
